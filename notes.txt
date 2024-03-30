@@ -1,0 +1,37 @@
+->by default the member is private
+->protected = only class and subclass can access the memebers of it 
+-> when ever we create an object a constructor is called 
+-> constructor is invoked at the time of object creation and objName.className() is called 
+    it has no return type 
+    no input parameter
+    is it created by default when not created by user  also called as default constructor
+    when you make your own constructor then the default constructor is deleted 
+
+->default copy constructor makes the shallow copy 
+
+-> destructor is used to deallocate the memeory 
+-> whenever class is created dstructor is also created 
+-> destructor have the same name as class
+-> no return type 
+-> no input parameter 
+-> it starts with tilda sign(~)
+-> destructor for static obj is called automatically but for dynamic obj we have to call the destructor manually 
+->whenever we create our own destructor the automatically default destructor is deleted
+
+//static memeber 
+-> static keyword = it creates a data member which belongs to class and we do not need to make a object to access it 
+datatype className:: fieldName = value;
+-> :: scope resolution operator 
+-> it could be accessed by making the obj also but it is not recommended coz it does not belong to obj it belongs to class
+
+
+// static functions 
+-> no need to create obj 
+-> they do not have "this" keyword coz "this" is pointer to current obj and it does not have obj
+-> they can access static memebers only 
+
+
+
+
+
+refer : https://www.codingninjas.com/codestudio/guided-paths/basics-of-c/content/118817/offering/1381799
